@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +11,34 @@
         .hero-gradient {
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         }
+
         .card-hover:hover {
             transform: translateY(-5px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
+
         .testimonial-card {
             transition: all 0.3s ease;
         }
+
         .testimonial-card:hover {
             transform: scale(1.03);
         }
+
         .contact-card {
             transition: all 0.3s ease;
         }
+
         .contact-card:hover {
             transform: translateY(-5px);
         }
+
         .page-section {
             scroll-margin-top: 100px;
         }
     </style>
 </head>
+
 <body class="font-sans antialiased text-gray-800">
     <!-- Navigation -->
     <nav class="bg-white shadow-md fixed top-0 w-full z-50 transition-transform duration-300" id="main-nav">
@@ -44,7 +52,8 @@
                 <a href="#about" class="text-gray-600 hover:text-green-600 transition">About Us</a>
                 <a href="services.html" class="text-gray-600 hover:text-green-600 transition">Services</a>
                 <a href="#contact" class="text-gray-600 hover:text-green-600 transition">Contact Us</a>
-                <a href="#booking" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition">Book Service</a>
+                <a href="#booking"
+                    class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition">Book Service</a>
             </div>
             <button class="md:hidden text-gray-600 focus:outline-none" id="mobile-menu-button">
                 <i class="fas fa-bars text-2xl"></i>
@@ -57,7 +66,9 @@
                 <a href="#about" class="text-gray-600 hover:text-green-600 transition py-2 border-b">About Us</a>
                 <a href="services.html" class="text-gray-600 hover:text-green-600 transition py-2 border-b">Services</a>
                 <a href="#contact" class="text-gray-600 hover:text-green-600 transition py-2 border-b">Contact Us</a>
-                <a href="#booking" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition text-center">Book Service</a>
+                <a href="#booking"
+                    class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition text-center">Book
+                    Service</a>
             </div>
         </div>
     </nav>
@@ -87,23 +98,33 @@
         <!-- Content -->
         <div class="container mx-auto px-4 relative z-10 h-full flex items-center">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">Precision Fertilization from the Sky</h1>
-                <p class="text-lg text-gray-200 mb-8">Revolutionizing agriculture with drone technology - connecting farmers with trusted vendors for efficient, precise, and cost-effective fertilization services.</p>
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">Precision Fertilization from
+                    the Sky</h1>
+                <p class="text-lg text-gray-200 mb-8">Revolutionizing agriculture with drone technology - connecting
+                    farmers with trusted vendors for efficient, precise, and cost-effective fertilization services.</p>
                 <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="#booking" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition text-center">Book Now</a>
-                    <a href="#services" class="bg-white/20 hover:bg-white/30 text-white border-2 border-white px-6 py-3 rounded-md font-medium transition text-center">Our Services</a>
+                    <a href="#booking"
+                        class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition text-center">Book
+                        Now</a>
+                    <a href="#services"
+                        class="bg-white/20 hover:bg-white/30 text-white border-2 border-white px-6 py-3 rounded-md font-medium transition text-center">Our
+                        Services</a>
                 </div>
             </div>
         </div>
 
         <!-- Navigation arrows -->
-        <button class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 rounded-full p-3 text-white z-20" onclick="prevSlide()">
+        <button
+            class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 rounded-full p-3 text-white z-20"
+            onclick="prevSlide()">
             <i class="fas fa-chevron-left text-xl"></i>
         </button>
-        <button class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 rounded-full p-3 text-white z-20" onclick="nextSlide()">
+        <button
+            class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 rounded-full p-3 text-white z-20"
+            onclick="nextSlide()">
             <i class="fas fa-chevron-right text-xl"></i>
         </button>
-        
+
         <!-- Navigation dots -->
         <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20">
             <button class="w-3 h-3 rounded-full bg-white/50 hover:bg-white/75" onclick="goToSlide(0)"></button>
@@ -141,37 +162,47 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-gray-800 mb-4">About Vayal Vimaani</h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Revolutionizing Indian agriculture through innovative drone technology</p>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Revolutionizing Indian agriculture through innovative
+                    drone technology</p>
             </div>
-            
+
             <div class="flex flex-col lg:flex-row items-start gap-12">
                 <div class="lg:w-1/2">
                     <div class="bg-white p-8 rounded-xl shadow-sm">
                         <h3 class="text-2xl font-semibold text-gray-800 mb-6">Our Story</h3>
-                        <p class="text-gray-600 mb-6 leading-relaxed">Founded in 2023, Vayal Vimaani is revolutionizing Indian agriculture by bridging the gap between traditional farming and cutting-edge drone technology.</p>
-                        <p class="text-gray-600 mb-8 leading-relaxed">Our mission is to make precision agriculture accessible to every farmer, regardless of farm size or location. By connecting farmers with a network of certified drone service providers, we're helping to increase yields, reduce costs, and promote sustainable farming practices across India.</p>
-                        
+                        <p class="text-gray-600 mb-6 leading-relaxed">Founded in 2023, Vayal Vimaani is revolutionizing
+                            Indian agriculture by bridging the gap between traditional farming and cutting-edge drone
+                            technology.</p>
+                        <p class="text-gray-600 mb-8 leading-relaxed">Our mission is to make precision agriculture
+                            accessible to every farmer, regardless of farm size or location. By connecting farmers with
+                            a network of certified drone service providers, we're helping to increase yields, reduce
+                            costs, and promote sustainable farming practices across India.</p>
+
                         <div class="bg-green-50 p-6 rounded-lg border border-green-100">
                             <h4 class="text-xl font-semibold text-green-700 mb-3">Our Vision</h4>
-                            <p class="text-gray-600">To become India's leading platform for smart farming solutions, empowering 1 million farmers with drone technology by 2030.</p>
+                            <p class="text-gray-600">To become India's leading platform for smart farming solutions,
+                                empowering 1 million farmers with drone technology by 2030.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="lg:w-1/2">
                     <div class="grid grid-cols-2 gap-4 mb-8">
                         <div class="row-span-2 overflow-hidden rounded-xl shadow-lg">
-                            <img src="about-1.png" alt="Drone Spraying Field" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300">
+                            <img src="about-1.png" alt="Drone Spraying Field"
+                                class="w-full h-full object-cover hover:scale-110 transition-transform duration-300">
                         </div>
                         <div class="overflow-hidden rounded-xl shadow-lg">
-                            <img src="about-2.png" alt="Woman with Drone Controller" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300">
+                            <img src="about-2.png" alt="Woman with Drone Controller"
+                                class="w-full h-full object-cover hover:scale-110 transition-transform duration-300">
                         </div>
                         <div class="overflow-hidden rounded-xl shadow-lg">
-                            <img src="about-3.png" alt="White Drone Over Crops" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300">
+                            <img src="about-3.png" alt="White Drone Over Crops"
+                                class="w-full h-full object-cover hover:scale-110 transition-transform duration-300">
                         </div>
                     </div>
 
-                   
+
                 </div>
             </div>
         </div>
@@ -182,36 +213,45 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Drone Services</h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Precision agriculture solutions tailored for modern farming needs</p>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Precision agriculture solutions tailored for modern
+                    farming needs</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <a href="drone-fertilization.html" class="bg-gray-50 p-8 rounded-xl transition duration-300 card-hover block hover:shadow-lg">
+                <a href="drone-fertilization.html"
+                    class="bg-gray-50 p-8 rounded-xl transition duration-300 card-hover block hover:shadow-lg">
                     <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                         <i class="fas fa-spray-can text-green-600 text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3 text-center">Drone Fertilization</h3>
-                    <p class="text-gray-600 mb-4 text-center">Precise nutrient application with drone technology for optimal crop growth and reduced chemical waste.</p>
+                    <p class="text-gray-600 mb-4 text-center">Precise nutrient application with drone technology for
+                        optimal crop growth and reduced chemical waste.</p>
                 </a>
-                <a href="crop-monitoring.html" class="bg-gray-50 p-8 rounded-xl transition duration-300 card-hover block hover:shadow-lg">
+                <a href="crop-monitoring.html"
+                    class="bg-gray-50 p-8 rounded-xl transition duration-300 card-hover block hover:shadow-lg">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                         <i class="fas fa-seedling text-blue-600 text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3 text-center">Crop Monitoring</h3>
-                    <p class="text-gray-600 mb-4 text-center">Aerial imaging and analysis to identify crop health issues, nutrient deficiencies, and growth patterns.</p>
+                    <p class="text-gray-600 mb-4 text-center">Aerial imaging and analysis to identify crop health
+                        issues, nutrient deficiencies, and growth patterns.</p>
                 </a>
-                <a href="field-mapping.html" class="bg-gray-50 p-8 rounded-xl transition duration-300 card-hover block hover:shadow-lg">
+                <a href="field-mapping.html"
+                    class="bg-gray-50 p-8 rounded-xl transition duration-300 card-hover block hover:shadow-lg">
                     <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                         <i class="fas fa-map-marked-alt text-purple-600 text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3 text-center">Field Mapping</h3>
-                    <p class="text-gray-600 mb-4 text-center">Detailed topographic mapping and soil analysis to optimize field management and irrigation planning.</p>
+                    <p class="text-gray-600 mb-4 text-center">Detailed topographic mapping and soil analysis to optimize
+                        field management and irrigation planning.</p>
                 </a>
-                <a href="precision-farming.html" class="bg-gray-50 p-8 rounded-xl transition duration-300 card-hover block hover:shadow-lg">
+                <a href="precision-farming.html"
+                    class="bg-gray-50 p-8 rounded-xl transition duration-300 card-hover block hover:shadow-lg">
                     <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                         <i class="fas fa-cogs text-yellow-600 text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3 text-center">Precision Farming</h3>
-                    <p class="text-gray-600 mb-4 text-center">Data-driven solutions for maximizing farm efficiency and sustainability.</p>
+                    <p class="text-gray-600 mb-4 text-center">Data-driven solutions for maximizing farm efficiency and
+                        sustainability.</p>
                 </a>
             </div>
         </div>
@@ -222,55 +262,64 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Drone Fertilization?</h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Transforming traditional farming with innovative aerial technology</p>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Transforming traditional farming with innovative
+                    aerial technology</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
                 <div class="flex">
                     <div class="mr-6">
-                        <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-xl">
+                        <div
+                            class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-xl">
                             <i class="fas fa-clock"></i>
                         </div>
                     </div>
                     <div>
                         <h3 class="text-xl font-semibold mb-3">Time Efficiency</h3>
-                        <p class="text-gray-600">Drones can cover large fields in a fraction of the time compared to traditional methods, allowing for timely applications during critical growth stages.</p>
+                        <p class="text-gray-600">Drones can cover large fields in a fraction of the time compared to
+                            traditional methods, allowing for timely applications during critical growth stages.</p>
                     </div>
                 </div>
-                
+
                 <div class="flex">
                     <div class="mr-6">
-                        <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-xl">
+                        <div
+                            class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-xl">
                             <i class="fas fa-rupee-sign"></i>
                         </div>
                     </div>
                     <div>
                         <h3 class="text-xl font-semibold mb-3">Cost Effective</h3>
-                        <p class="text-gray-600">Reduced labor costs and precise chemical application lead to significant savings on inputs and operational expenses.</p>
+                        <p class="text-gray-600">Reduced labor costs and precise chemical application lead to
+                            significant savings on inputs and operational expenses.</p>
                     </div>
                 </div>
-                
+
                 <div class="flex">
                     <div class="mr-6">
-                        <div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 text-xl">
+                        <div
+                            class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 text-xl">
                             <i class="fas fa-chart-line"></i>
                         </div>
                     </div>
                     <div>
                         <h3 class="text-xl font-semibold mb-3">Increased Yields</h3>
-                        <p class="text-gray-600">Precision application ensures optimal nutrient delivery, resulting in healthier crops and improved productivity per acre.</p>
+                        <p class="text-gray-600">Precision application ensures optimal nutrient delivery, resulting in
+                            healthier crops and improved productivity per acre.</p>
                     </div>
                 </div>
-                
+
                 <div class="flex">
                     <div class="mr-6">
-                        <div class="w-14 h-14 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 text-xl">
+                        <div
+                            class="w-14 h-14 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 text-xl">
                             <i class="fas fa-leaf"></i>
                         </div>
                     </div>
                     <div>
                         <h3 class="text-xl font-semibold mb-3">Eco-Friendly</h3>
-                        <p class="text-gray-600">Minimized chemical runoff and reduced soil compaction contribute to more sustainable farming practices.</p>
+                        <p class="text-gray-600">Minimized chemical runoff and reduced soil compaction contribute to
+                            more sustainable farming practices.</p>
                     </div>
                 </div>
             </div>
@@ -281,61 +330,68 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600">
+                            <div
+                                class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600">
                                 <i class="fas fa-spray-can"></i>
                             </div>
                             <span class="text-gray-700 font-medium">Uniform fertilizer coverage</span>
                         </div>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600">
+                            <div
+                                class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600">
                                 <i class="fas fa-tachometer-alt"></i>
                             </div>
                             <span class="text-gray-700 font-medium">Faster service across large farmlands</span>
                         </div>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-purple-600">
+                            <div
+                                class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-purple-600">
                                 <i class="fas fa-recycle"></i>
                             </div>
                             <span class="text-gray-700 font-medium">Reduced chemical wastage</span>
                         </div>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600">
+                            <div
+                                class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600">
                                 <i class="fas fa-seedling"></i>
                             </div>
                             <span class="text-gray-700 font-medium">Increased crop yield</span>
                         </div>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+                            <div
+                                class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center text-red-600">
                                 <i class="fas fa-desktop"></i>
                             </div>
                             <span class="text-gray-700 font-medium">Real-time monitoring</span>
                         </div>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600">
+                            <div
+                                class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600">
                                 <i class="fas fa-coins"></i>
                             </div>
                             <span class="text-gray-700 font-medium">Cost-effective solution</span>
                         </div>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center text-teal-600">
+                            <div
+                                class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center text-teal-600">
                                 <i class="fas fa-mountain"></i>
                             </div>
                             <span class="text-gray-700 font-medium">Improved soil health</span>
@@ -351,67 +407,90 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">How It Works</h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Simple steps to access drone fertilization services through our mobile platform</p>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Simple steps to access drone fertilization services
+                    through our mobile platform</p>
             </div>
-            
+
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
                         <div class="text-center">
-                            <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-2xl font-bold mx-auto mb-4">1</div>
+                            <div
+                                class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-2xl font-bold mx-auto mb-4">
+                                1</div>
                             <h3 class="text-xl font-semibold mb-3">Register</h3>
                             <p class="text-gray-600">Create your account as a farmer or service provider</p>
                         </div>
-                        
+
                         <div class="text-center">
-                            <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-2xl font-bold mx-auto mb-4">2</div>
+                            <div
+                                class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-2xl font-bold mx-auto mb-4">
+                                2</div>
                             <h3 class="text-xl font-semibold mb-3">Request</h3>
                             <p class="text-gray-600">Submit your service request with field details</p>
                         </div>
-                        
+
                         <div class="text-center">
-                            <div class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 text-2xl font-bold mx-auto mb-4">3</div>
+                            <div
+                                class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 text-2xl font-bold mx-auto mb-4">
+                                3</div>
                             <h3 class="text-xl font-semibold mb-3">Match</h3>
                             <p class="text-gray-600">Get connected with verified local drone operators</p>
                         </div>
-                        
+
                         <div class="text-center">
-                            <div class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 text-2xl font-bold mx-auto mb-4">4</div>
+                            <div
+                                class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 text-2xl font-bold mx-auto mb-4">
+                                4</div>
                             <h3 class="text-xl font-semibold mb-3">Complete</h3>
                             <p class="text-gray-600">Service executed with digital reporting</p>
                         </div>
                     </div>
-                    
+
                     <div class="mt-12 text-center">
-                        <a href="#booking" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-md font-medium transition inline-block">Get Started Today</a>
+                        <a href="#booking"
+                            class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-md font-medium transition inline-block">Get
+                            Started Today</a>
                     </div>
                 </div>
-                
+
                 <div class="md:w-1/2 flex justify-center">
                     <div class="relative w-full max-w-[280px]">
                         <!-- Navigation arrows -->
-                        <button class="absolute -left-12 top-1/2 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-2 text-gray-800 z-10" onclick="prevAppSlide()">
+                        <button
+                            class="absolute -left-12 top-1/2 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-2 text-gray-800 z-10"
+                            onclick="prevAppSlide()">
                             <i class="fas fa-chevron-left"></i>
                         </button>
-                        <button class="absolute -right-12 top-1/2 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-2 text-gray-800 z-10" onclick="nextAppSlide()">
+                        <button
+                            class="absolute -right-12 top-1/2 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 rounded-full p-2 text-gray-800 z-10"
+                            onclick="nextAppSlide()">
                             <i class="fas fa-chevron-right"></i>
                         </button>
 
                         <!-- App screenshots carousel -->
                         <div class="relative overflow-hidden rounded-lg shadow-xl">
                             <div class="app-slider-container flex transition-transform duration-500 ease-in-out">
-                                <img src="app1.png" alt="Vayal Vimaani mobile app interface" class="w-full h-auto flex-shrink-0">
-                                <img src="app2.png" alt="Vayal Vimaani mobile app interface" class="w-full h-auto flex-shrink-0">
-                                <img src="app3.png" alt="Vayal Vimaani mobile app interface" class="w-full h-auto flex-shrink-0">
-                                <img src="app4.png" alt="Vayal Vimaani mobile app interface" class="w-full h-auto flex-shrink-0">
+                                <img src="app1.png" alt="Vayal Vimaani mobile app interface"
+                                    class="w-full h-auto flex-shrink-0">
+                                <img src="app2.png" alt="Vayal Vimaani mobile app interface"
+                                    class="w-full h-auto flex-shrink-0">
+                                <img src="app3.png" alt="Vayal Vimaani mobile app interface"
+                                    class="w-full h-auto flex-shrink-0">
+                                <img src="app4.png" alt="Vayal Vimaani mobile app interface"
+                                    class="w-full h-auto flex-shrink-0">
                             </div>
-                            
+
                             <!-- Navigation dots -->
                             <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
-                                <button class="w-2 h-2 rounded-full bg-white/50 hover:bg-white/75" onclick="goToAppSlide(0)"></button>
-                                <button class="w-2 h-2 rounded-full bg-white/50 hover:bg-white/75" onclick="goToAppSlide(1)"></button>
-                                <button class="w-2 h-2 rounded-full bg-white/50 hover:bg-white/75" onclick="goToAppSlide(2)"></button>
-                                <button class="w-2 h-2 rounded-full bg-white/50 hover:bg-white/75" onclick="goToAppSlide(3)"></button>
+                                <button class="w-2 h-2 rounded-full bg-white/50 hover:bg-white/75"
+                                    onclick="goToAppSlide(0)"></button>
+                                <button class="w-2 h-2 rounded-full bg-white/50 hover:bg-white/75"
+                                    onclick="goToAppSlide(1)"></button>
+                                <button class="w-2 h-2 rounded-full bg-white/50 hover:bg-white/75"
+                                    onclick="goToAppSlide(2)"></button>
+                                <button class="w-2 h-2 rounded-full bg-white/50 hover:bg-white/75"
+                                    onclick="goToAppSlide(3)"></button>
                             </div>
                         </div>
                     </div>
@@ -425,19 +504,23 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold mb-4">What Farmers Say</h2>
-                <p class="text-lg max-w-3xl mx-auto">Hear from farmers who have transformed their operations with our drone services</p>
+                <p class="text-lg max-w-3xl mx-auto">Hear from farmers who have transformed their operations with our
+                    drone services</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-white bg-opacity-10 p-8 rounded-xl backdrop-blur-sm testimonial-card">
                     <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center text-xl mr-4">RK</div>
+                        <div
+                            class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center text-xl mr-4">
+                            RK</div>
                         <div>
                             <h4 class="font-semibold">Ramesh Kumar</h4>
                             <p class="text-sm text-green-200">Paddy Farmer, Tamil Nadu</p>
                         </div>
                     </div>
-                    <p class="italic">"The drone service saved me 40% on fertilizer costs and doubled my coverage speed. My yields have never been better!"</p>
+                    <p class="italic">"The drone service saved me 40% on fertilizer costs and doubled my coverage speed.
+                        My yields have never been better!"</p>
                     <div class="flex mt-4 text-yellow-300">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -446,16 +529,19 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
-                
+
                 <div class="bg-white bg-opacity-10 p-8 rounded-xl backdrop-blur-sm testimonial-card">
                     <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center text-xl mr-4">SP</div>
+                        <div
+                            class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center text-xl mr-4">
+                            SP</div>
                         <div>
                             <h4 class="font-semibold">Sunita Patel</h4>
                             <p class="text-sm text-green-200">Cotton Farmer, Maharashtra</p>
                         </div>
                     </div>
-                    <p class="italic">"As a woman farmer, I appreciate how easy Vayal Vimaani made it to access advanced technology. The results were visible within weeks."</p>
+                    <p class="italic">"As a woman farmer, I appreciate how easy Vayal Vimaani made it to access advanced
+                        technology. The results were visible within weeks."</p>
                     <div class="flex mt-4 text-yellow-300">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -464,16 +550,19 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
-                
+
                 <div class="bg-white bg-opacity-10 p-8 rounded-xl backdrop-blur-sm testimonial-card">
                     <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center text-xl mr-4">AS</div>
+                        <div
+                            class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center text-xl mr-4">
+                            AS</div>
                         <div>
                             <h4 class="font-semibold">Arun Singh</h4>
                             <p class="text-sm text-green-200">Wheat Farmer, Punjab</p>
                         </div>
                     </div>
-                    <p class="italic">"The precision of drone fertilization is remarkable. I've reduced chemical use by 30% while improving crop health."</p>
+                    <p class="italic">"The precision of drone fertilization is remarkable. I've reduced chemical use by
+                        30% while improving crop health."</p>
                     <div class="flex mt-4 text-yellow-300">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -493,62 +582,79 @@
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
                 <p class="text-lg text-gray-600">Common questions about our drone fertilization services</p>
             </div>
-            
+
             <div class="space-y-4">
                 <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
+                    <button
+                        class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
                         <span>How much does drone fertilization cost?</span>
                         <i class="fas fa-chevron-down text-green-600 transition-transform"></i>
                     </button>
                     <div class="mt-3 text-gray-600 hidden faq-content">
-                        <p>Pricing typically ranges from ₹300-₹600 per acre depending on crop type, terrain, and service scope. We offer volume discounts for larger farms. Contact us for an exact quote based on your specific requirements.</p>
+                        <p>Pricing typically ranges from ₹300-₹600 per acre depending on crop type, terrain, and service
+                            scope. We offer volume discounts for larger farms. Contact us for an exact quote based on
+                            your specific requirements.</p>
                     </div>
                 </div>
-                
+
                 <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
+                    <button
+                        class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
                         <span>What crops can benefit from drone fertilization?</span>
                         <i class="fas fa-chevron-down text-green-600 transition-transform"></i>
                     </button>
                     <div class="mt-3 text-gray-600 hidden faq-content">
-                        <p>Our services are effective for all major crops including paddy, wheat, cotton, sugarcane, maize, pulses, and horticultural crops. The technology is particularly beneficial for crops requiring precise nutrient management.</p>
+                        <p>Our services are effective for all major crops including paddy, wheat, cotton, sugarcane,
+                            maize, pulses, and horticultural crops. The technology is particularly beneficial for crops
+                            requiring precise nutrient management.</p>
                     </div>
                 </div>
-                
+
                 <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
+                    <button
+                        class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
                         <span>How does drone fertilization compare to traditional methods?</span>
                         <i class="fas fa-chevron-down text-green-600 transition-transform"></i>
                     </button>
                     <div class="mt-3 text-gray-600 hidden faq-content">
-                        <p>Drone fertilization offers several advantages: uniform coverage (no overlaps/misses), 5-10x faster application, 20-30% less chemical usage, no soil compaction, and ability to treat difficult terrain. It also provides digital records of applications.</p>
+                        <p>Drone fertilization offers several advantages: uniform coverage (no overlaps/misses), 5-10x
+                            faster application, 20-30% less chemical usage, no soil compaction, and ability to treat
+                            difficult terrain. It also provides digital records of applications.</p>
                     </div>
                 </div>
-                
+
                 <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
+                    <button
+                        class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
                         <span>What safety measures are in place?</span>
                         <i class="fas fa-chevron-down text-green-600 transition-transform"></i>
                     </button>
                     <div class="mt-3 text-gray-600 hidden faq-content">
-                        <p>All our operators are DGCA-certified and follow strict safety protocols. Drones maintain safe distances from people/animals, use approved chemicals at correct concentrations, and operate only in suitable weather conditions with proper insurance coverage.</p>
+                        <p>All our operators are DGCA-certified and follow strict safety protocols. Drones maintain safe
+                            distances from people/animals, use approved chemicals at correct concentrations, and operate
+                            only in suitable weather conditions with proper insurance coverage.</p>
                     </div>
                 </div>
-                
+
                 <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
+                    <button
+                        class="flex justify-between items-center w-full text-left font-semibold text-gray-800 focus:outline-none faq-toggle">
                         <span>How far in advance should I book?</span>
                         <i class="fas fa-chevron-down text-green-600 transition-transform"></i>
                     </button>
                     <div class="mt-3 text-gray-600 hidden faq-content">
-                        <p>We recommend booking at least 3-5 days in advance during peak seasons. For larger farms (50+ acres), 1-2 weeks notice is ideal to ensure availability. Emergency services may be available with additional charges.</p>
+                        <p>We recommend booking at least 3-5 days in advance during peak seasons. For larger farms (50+
+                            acres), 1-2 weeks notice is ideal to ensure availability. Emergency services may be
+                            available with additional charges.</p>
                     </div>
                 </div>
             </div>
-            
+
             <div class="mt-12 text-center">
                 <p class="text-gray-600 mb-4">Have more questions?</p>
-                <a href="#contact" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition inline-block">Contact Our Team</a>
+                <a href="#contact"
+                    class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition inline-block">Contact
+                    Our Team</a>
             </div>
         </div>
     </section>
@@ -559,31 +665,38 @@
             <div class="max-w-4xl mx-auto bg-gray-50 rounded-xl p-8 shadow-sm">
                 <div class="text-center mb-8">
                     <h2 class="text-3xl font-bold text-gray-800 mb-2">Book Drone Fertilization Service</h2>
-                    <p class="text-lg text-gray-600">Fill out the form below and we'll connect you with a verified drone service provider in your area</p>
+                    <p class="text-lg text-gray-600">Fill out the form below and we'll connect you with a verified drone
+                        service provider in your area</p>
                 </div>
-                
+
                 <form class="space-y-6">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                            <label for="fullname" class="block text-sm font-medium text-gray-700 mb-1">Full Name*</label>
-                            <input type="text" id="fullname" placeholder="Your name" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                            <label for="fullname" class="block text-sm font-medium text-gray-700 mb-1">Full
+                                Name*</label>
+                            <input type="text" id="fullname" placeholder="Your name" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
                         </div>
-                        
+
                         <div>
-                            <label for="mobile" class="block text-sm font-medium text-gray-700 mb-1">Mobile Number*</label>
-                            <input type="tel" id="mobile" placeholder="10-digit mobile number" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                            <label for="mobile" class="block text-sm font-medium text-gray-700 mb-1">Mobile
+                                Number*</label>
+                            <input type="tel" id="mobile" placeholder="10-digit mobile number" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
                         </div>
                     </div>
-                    
+
                     <div>
                         <label for="address" class="block text-sm font-medium text-gray-700 mb-1">Farm Address*</label>
-                        <textarea id="address" rows="2" placeholder="Village, Taluk, District" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"></textarea>
+                        <textarea id="address" rows="2" placeholder="Village, Taluk, District" required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"></textarea>
                     </div>
-                    
+
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                             <label for="crop" class="block text-sm font-medium text-gray-700 mb-1">Primary Crop*</label>
-                            <select id="crop" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                            <select id="crop" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
                                 <option value="">Select crop</option>
                                 <option value="paddy">Paddy</option>
                                 <option value="wheat">Wheat</option>
@@ -593,23 +706,30 @@
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                        
+
                         <div>
-                            <label for="area" class="block text-sm font-medium text-gray-700 mb-1">Farm Area (Acres)*</label>
-                            <input type="number" id="area" placeholder="Total area in acres" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                            <label for="area" class="block text-sm font-medium text-gray-700 mb-1">Farm Area
+                                (Acres)*</label>
+                            <input type="number" id="area" placeholder="Total area in acres" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
                         </div>
                     </div>
-                    
+
                     <div>
-                        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Additional Information</label>
-                        <textarea id="message" rows="4" placeholder="Any specific requirements or questions" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"></textarea>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Additional
+                            Information</label>
+                        <textarea id="message" rows="4" placeholder="Any specific requirements or questions"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"></textarea>
                     </div>
-                    
+
                     <div class="pt-2">
-                        <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-md transition">Submit Request</button>
+                        <button type="submit"
+                            class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-md transition">Submit
+                            Request</button>
                     </div>
-                    
-                    <p class="text-sm text-gray-500 text-center">We'll contact you within 24 hours to confirm your booking details.</p>
+
+                    <p class="text-sm text-gray-500 text-center">We'll contact you within 24 hours to confirm your
+                        booking details.</p>
                 </form>
             </div>
         </div>
@@ -621,16 +741,18 @@
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Contact Vayal Vimaani</h2>
-                    <p class="text-lg text-gray-600">Get in touch with our team for inquiries, support, or partnership opportunities</p>
+                    <p class="text-lg text-gray-600">Get in touch with our team for inquiries, support, or partnership
+                        opportunities</p>
                 </div>
-                
+
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="bg-gray-50 p-8 rounded-xl shadow-sm">
                         <h3 class="text-xl font-semibold mb-6">Contact Information</h3>
-                        
+
                         <div class="space-y-6">
                             <div class="flex items-start">
-                                <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 mr-4 mt-1">
+                                <div
+                                    class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 mr-4 mt-1">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div>
@@ -638,9 +760,10 @@
                                     <p class="text-gray-600">123 Agri Tech Park, Tenkasi, Tamil Nadu 627811</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start">
-                                <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mr-4 mt-1">
+                                <div
+                                    class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mr-4 mt-1">
                                     <i class="fas fa-phone-alt"></i>
                                 </div>
                                 <div>
@@ -649,9 +772,10 @@
                                     <p class="text-gray-600">+91 9442 568 921 (Sales)</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start">
-                                <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 mr-4 mt-1">
+                                <div
+                                    class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 mr-4 mt-1">
                                     <i class="fas fa-envelope"></i>
                                 </div>
                                 <div>
@@ -660,9 +784,10 @@
                                     <p class="text-gray-600">sales@vayalvimaani.com</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start">
-                                <div class="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 mr-4 mt-1">
+                                <div
+                                    class="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 mr-4 mt-1">
                                     <i class="fas fa-clock"></i>
                                 </div>
                                 <div>
@@ -673,31 +798,41 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="bg-gray-50 p-8 rounded-xl shadow-sm">
                         <h3 class="text-xl font-semibold mb-6">Send Us a Message</h3>
                         <form class="space-y-4">
                             <div>
-                                <label for="contact-name" class="block text-sm font-medium text-gray-700 mb-1">Your Name*</label>
-                                <input type="text" id="contact-name" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                                <label for="contact-name" class="block text-sm font-medium text-gray-700 mb-1">Your
+                                    Name*</label>
+                                <input type="text" id="contact-name" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
                             </div>
-                            
+
                             <div>
-                                <label for="contact-email" class="block text-sm font-medium text-gray-700 mb-1">Email Address*</label>
-                                <input type="email" id="contact-email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                                <label for="contact-email" class="block text-sm font-medium text-gray-700 mb-1">Email
+                                    Address*</label>
+                                <input type="email" id="contact-email" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
                             </div>
-                            
+
                             <div>
-                                <label for="contact-subject" class="block text-sm font-medium text-gray-700 mb-1">Subject*</label>
-                                <input type="text" id="contact-subject" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                                <label for="contact-subject"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Subject*</label>
+                                <input type="text" id="contact-subject" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
                             </div>
-                            
+
                             <div>
-                                <label for="contact-message" class="block text-sm font-medium text-gray-700 mb-1">Message*</label>
-                                <textarea id="contact-message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"></textarea>
+                                <label for="contact-message"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Message*</label>
+                                <textarea id="contact-message" rows="4" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"></textarea>
                             </div>
-                            
-                            <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-md transition">Send Message</button>
+
+                            <button type="submit"
+                                class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-md transition">Send
+                                Message</button>
                         </form>
                     </div>
                 </div>
@@ -714,15 +849,18 @@
                         <img src="logo-white.svg" alt="Vayal Vimaani Logo" class="h-10 w-10 mr-2">
                         <span class="text-xl font-bold">Vayal Vimaani</span>
                     </div>
-                    <p class="text-gray-400 mb-4">Empowering farmers with drone technology for precision agriculture and sustainable farming practices.</p>
+                    <p class="text-gray-400 mb-4">Empowering farmers with drone technology for precision agriculture and
+                        sustainable farming practices.</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-facebook-f"></i></a>
                         <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-instagram"></i></a>
                         <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-                
+
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
@@ -732,29 +870,34 @@
                         <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
                     </ul>
                 </div>
-                
+
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Services</h3>
                     <ul class="space-y-2">
-                        <li><a href="services.html#drone-fertilization" class="text-gray-400 hover:text-white transition">Drone Fertilization</a></li>
-                        <li><a href="services.html#crop-monitoring" class="text-gray-400 hover:text-white transition">Crop Monitoring</a></li>
-                        <li><a href="services.html#field-mapping" class="text-gray-400 hover:text-white transition">Field Mapping</a></li>
-                        <li><a href="services.html#precision-farming" class="text-gray-400 hover:text-white transition">Precision Farming</a></li>
+                        <li><a href="services.html#drone-fertilization"
+                                class="text-gray-400 hover:text-white transition">Drone Fertilization</a></li>
+                        <li><a href="services.html#crop-monitoring"
+                                class="text-gray-400 hover:text-white transition">Crop Monitoring</a></li>
+                        <li><a href="services.html#field-mapping"
+                                class="text-gray-400 hover:text-white transition">Field Mapping</a></li>
+                        <li><a href="services.html#precision-farming"
+                                class="text-gray-400 hover:text-white transition">Precision Farming</a></li>
                     </ul>
                 </div>
-                
+
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
                     <p class="text-gray-400 mb-4">Subscribe to get updates on new services and farming tips.</p>
                     <form class="flex">
-                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-md focus:outline-none text-gray-800 w-full">
+                        <input type="email" placeholder="Your email"
+                            class="px-4 py-2 rounded-l-md focus:outline-none text-gray-800 w-full">
                         <button type="submit" class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-r-md">
                             <i class="fas fa-paper-plane"></i>
                         </button>
                     </form>
                 </div>
             </div>
-            
+
             <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-400 mb-4 md:mb-0">&copy; 2025 Vayal Vimaani. All Rights Reserved.</p>
                 <div class="flex space-x-6">
@@ -766,54 +909,29 @@
         </div>
     </footer>
 
-    <!-- Replace with enhanced Vision Section -->
-    <section class="py-20 bg-gradient-to-br from-green-600 to-green-800 text-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center">
-                <div class="mb-8">
-                    <i class="fas fa-bullseye text-5xl text-green-300 mb-6"></i>
-                    <h2 class="text-4xl font-bold mb-6">Our Vision</h2>
-                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-                        <p class="text-xl md:text-2xl font-medium leading-relaxed mb-6">
-                            To become India's leading platform for smart farming solutions, empowering 1 million farmers with drone technology by 2030.
-                        </p>
-                        <div class="flex justify-center space-x-8 mt-8">
-                            <div class="text-center">
-                                <div class="text-4xl font-bold text-green-300 mb-2">1M+</div>
-                                <div class="text-green-100">Farmers</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-4xl font-bold text-green-300 mb-2">2030</div>
-                                <div class="text-green-100">Target Year</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <script>
         // Mobile menu toggle
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        
+
         mobileMenuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
-        
+
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
+
                 if (targetElement) {
                     // Close mobile menu if open
                     mobileMenu.classList.add('hidden');
-                    
+
                     // Scroll to target
                     window.scrollTo({
                         top: targetElement.offsetTop - 80,
@@ -822,13 +940,13 @@
                 }
             });
         });
-        
+
         // FAQ toggle functionality
         document.querySelectorAll('.faq-toggle').forEach(button => {
             button.addEventListener('click', () => {
                 const content = button.nextElementSibling;
                 const icon = button.querySelector('i');
-                
+
                 content.classList.toggle('hidden');
                 icon.classList.toggle('rotate-180');
             });
@@ -839,7 +957,7 @@
         const sliderContainer = document.querySelector('.slider-container');
         const slides = document.querySelectorAll('.slider-container img');
         const dots = document.querySelectorAll('.slider-container + div button');
-        
+
         function updateSlider() {
             sliderContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
             // Update dots
@@ -848,25 +966,25 @@
                 dot.classList.toggle('bg-opacity-50', index !== currentSlide);
             });
         }
-        
+
         function nextSlide() {
             currentSlide = (currentSlide + 1) % slides.length;
             updateSlider();
         }
-        
+
         function prevSlide() {
             currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             updateSlider();
         }
-        
+
         function goToSlide(index) {
             currentSlide = index;
             updateSlider();
         }
-        
+
         // Auto-advance slides every 5 seconds
         setInterval(nextSlide, 5000);
-        
+
         // Initialize slider
         updateSlider();
 
@@ -875,7 +993,7 @@
         const appSliderContainer = document.querySelector('.app-slider-container');
         const appSlides = document.querySelectorAll('.app-slider-container img');
         const appDots = document.querySelectorAll('.app-slider-container + div button');
-        
+
         function updateAppSlider() {
             appSliderContainer.style.transform = `translateX(-${currentAppSlide * 100}%)`;
             // Update dots
@@ -884,25 +1002,25 @@
                 dot.classList.toggle('bg-opacity-50', index !== currentAppSlide);
             });
         }
-        
+
         function nextAppSlide() {
             currentAppSlide = (currentAppSlide + 1) % appSlides.length;
             updateAppSlider();
         }
-        
+
         function prevAppSlide() {
             currentAppSlide = (currentAppSlide - 1 + appSlides.length) % appSlides.length;
             updateAppSlider();
         }
-        
+
         function goToAppSlide(index) {
             currentAppSlide = index;
             updateAppSlider();
         }
-        
+
         // Auto-advance app slides every 4 seconds
         setInterval(nextAppSlide, 4000);
-        
+
         // Initialize app slider
         updateAppSlider();
 
@@ -913,7 +1031,7 @@
 
         window.addEventListener('scroll', () => {
             const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-            
+
             // Only trigger if scrolled more than threshold
             if (Math.abs(currentScroll - lastScrollTop) > scrollThreshold) {
                 if (currentScroll > lastScrollTop && currentScroll > 100) {
@@ -928,4 +1046,5 @@
         });
     </script>
 </body>
+
 </html>
